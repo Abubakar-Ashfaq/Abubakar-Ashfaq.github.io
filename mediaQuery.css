@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Media Query for Desktop Screens */
+@media screen and (min-width: 726px) {
+  /* increase the font size of all p tag and a tag */
+  p, a {
+    font-size: 1.2rem;
+  }
+
+  .projects {
+    border-radius: 25px;
+    display: flex;
+    margin: 50px 150px 100px 150px;
+    padding: 10px;
+    transition: box-shadow 450ms ease-in-out;
+    transition: transform 350ms ease-in;
+  }
+  .projects-rightShift {
+    border-radius: 25px;
+    display: flex;
+    margin: 50px 150px 100px 150px;
+    padding: 10px;
+    transition: box-shadow 450ms ease-in-out;
+    transition: transform 350ms ease-in;
+    flex-direction: row-reverse;
+  }
+
+  .logoFont {
+    background-color: rgb(57, 234, 30);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .logo {
+    height: 1.2rem;
+  }
+
+  .logoDiv {
+    width: 1.2rem;
+    padding: 1.2rem 1.2rem;
+  }
+
+  .networkIcons{
+    margin-top: 50px;
+  }
+
+  .logoToolbar {
+    height: 1.2rem;
+  }
+
+  .header_h {
+    height: 1.2rem;
+  }
+
+  /* .projects{
+    height: "auto";
+  } */
+
+  .headline {
+    width: 1.2rem;
+    margin: 1.2rem;
+  }
+
+  .headlineTitle {
+    font-size: 1.2rem;
+    line-height: 60px;
+    padding: 1.2rem;
+  }
+
+  .optionsUL {
+    width: 80px;
+  }
+
+  .bar {
+    height: 5px;
+    width: 30px;
+  }
+
+  .descriptionBox {
+    margin: 1.2rem 1.5rem;
+  }
+
+  .description {
+    font-size: 200px;
+  }
+
+  .connectText {
+    font-size: 1.2rem;
+  }
+
+  .networkContainer {
+    width: 250px;
+  }
+
+  .projects {
+    margin: 150px 50px;
+    height: 700px;
+  }
+
+  .projectTitle {
+    font-size: 32px;
+  }
+
+  .list-less {
+    font-size: 18px;
+  }
+
+  .projectItems {
+    font-size: 18px;
+  }
+
+  .projectButton {
+    font-size: 20px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
+  .link-skill {
+    font-size: 24px;
+  }
+
+  .contactTitleContainer {
+    font-size: 32px;
+  }
+
+  .contactDescription {
+    font-size: 24px;
+  }
+
+
+  .contact-button {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+}

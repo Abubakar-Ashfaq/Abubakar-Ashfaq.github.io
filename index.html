@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQuery.css"></link>
     <title>My Portfolio</title>
 </head>
 
@@ -68,9 +69,9 @@
            <section id="Work">
             
             <!-- 1st CARD -->            
-            <div class="backgroundColor projects" style="height: auto;">
+            <div class="backgroundColor projects" style="height: auto;" id="firstCard">
 
-                <div class="projectHeader">
+                <div class="projectHeader" id="firstCardImg">
                     <div class="project-img-container">
                         <img
                                 src="./assets/P1.PNG"
@@ -122,8 +123,8 @@
 
             <!-- 2nd Card -->
 
-            <<div class="backgroundColor projects" style="height: auto;">
-                <div class="projectHeader">
+            <<div class="backgroundColor projects projects-rightShift" style="height: auto;" id="secondCard">
+                <div class="projectHeader" id="secondCardImg">
                     <div class="project-img-container">
                         <img
                                 src="./assets/P2.PNG"
@@ -174,8 +175,8 @@
              
             <!-- 3rd Card -->
             
-            <div class="backgroundColor projects" style="height: auto;">
-                <div class="projectHeader">
+            <div class="backgroundColor projects" style="height: auto;" id="thirdCard">
+                <div class="projectHeader" id="thirdCardImg">
                     <div class="project-img-container">
                         <img
                                 src="./assets/p3.PNG"
@@ -225,8 +226,8 @@
             
             <!-- 4th Card -->
             
-            <div class="backgroundColor projects" style="height: auto;" > 
-                <div class="projectHeader">
+            <div class="backgroundColor projects projects-rightShift" style="height: auto;" id="fourthCard" > 
+                <div class="projectHeader" id="fourthCardImg">
                     <div class="project-img-container">
                         <img
                                 src="./assets/p4.PNG"
@@ -265,6 +266,9 @@
                                 <li><p class="tag-btn" href="#">css</p></li>
                                 <li><p class="tag-btn" href="#">javaScript</p></li>
                             </ul>
+                        </div>
+                        <div class="projectButtonContainer">
+                            <p class="projectButton">See project</p>
                         </div>
                     </div>
 
@@ -383,7 +387,7 @@
 
               <!-- Form -->
               <div class="formContainer">
-                  <form class="contactForm">
+                  <form class="contactForm" action="" method="post">
                   <input
                     type="text"
                     placeholder="Name"
